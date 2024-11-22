@@ -19,7 +19,7 @@ for row in range(1,fs_count_row+1):
             textContents += [fgColor]
 
 print(textContents)
-print(f"Number of colums: ", fs_count_col)
+print(f"Number of columns: ", fs_count_col)
 print(f"Number of rows: ", fs_count_row)
 #Write over previous contents
 file = open("Text.txt", "w")
